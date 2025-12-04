@@ -34,7 +34,7 @@ Traffic flows from the public internet, through the domain registrar/DNS, to the
 2. DNS for `lefthandyman.com` resolves to the public IP address of the hosting environment.
 3. The router forwards HTTP/HTTPS traffic (ports 80/443) to the internal Ubuntu server (Raspberry Pi).
 4. Apache on the server handles the incoming request:
-   - Serves static HTML/CSS/image files from `/var/www/html`.
+   - Serves static HTML/CSS/image files.
    - Applies Apache configuration (security, directory options, etc.).
 5. The response is returned to the customer’s browser over HTTPS.
 
@@ -52,7 +52,7 @@ Traffic flows from the public internet, through the domain registrar/DNS, to the
 
 ### 3.2 Web Server (Apache)
 
-- Serves content from `/var/www/`.
+- Serves content from ubuntu server.
 - Directory listing disabled
 - Secure server best practices configured
 - SSL module enabled and managed via Certbot (Let’s Encrypt) to issue and renew certificates.
@@ -65,11 +65,11 @@ A custom script:
 - Configures cron to:
   - Run daily `apt update && apt upgrade -y`.
   - Run monthly `apt dist-upgrade -y`.
-  - Back up `/var/www/html` monthly to `/backup` with timestamped `.tar.gz` archives.
+  - Back up web pages & content monthly to specified backup folder location with timestamped `.tar.gz` archives.
   - Prune backups older than 180 days.
 - Creates log files for updates and HTML backups.
 
-These tasks provide a basic level of maintenance, backup, and recoverability.
+These tasks provide a level of maintenance, backup, and recoverability.
 
 ---
 
