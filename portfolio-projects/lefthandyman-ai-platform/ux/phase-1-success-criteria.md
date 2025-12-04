@@ -1,11 +1,15 @@
 <div align="center">
 
-# 🛠️ Lefthandyman — UX Modernization  
-**A real-world portfolio project involving UX modernization, performance optimization, and AI integration.**
+# 🦖 Phase 1 — Website Modernization  
+### UX, Responsiveness, Layout, Performance, and Accessibility
+
+![Phase](https://img.shields.io/badge/phase-1-blue)
+![Focus](https://img.shields.io/badge/focus-UX%20%7C%20Performance%20%7C%20Responsiveness-green)
+
+---
 
 </div>
 
----
 
 
 # 🦖 Phase 1 Success Criteria — Website Modernization
