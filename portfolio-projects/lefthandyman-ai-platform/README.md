@@ -1,4 +1,19 @@
-# Lefthandyman Platform (Website Modernization + AI Augmentation)
+<div align="center">
+
+# 🦖 Left Handyman Website & AI Platform
+
+Modernizing a small business website with  
+**responsive UX, performance tuning, architecture design, and AI-powered customer workflows.**
+
+![Phase](https://img.shields.io/badge/current%20phase-Website%20Modernization-blue)
+![Tech](https://img.shields.io/badge/stack-HTML%20%7C%20CSS%20%7C%20AI%20%7C%20GCP-orange)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+https://lefthandyman.com
+---
+
+</div>
+
 
 ## Overview
 Lefthandyman is a handyman services business based in Iowa. This project is my effort to modernize its digital presence and build a scalable, AI-augmented platform that helps the owner manage customer requests, quoting, scheduling, and follow-ups.
