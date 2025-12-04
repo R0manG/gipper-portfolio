@@ -1,3 +1,13 @@
+<div align="center">
+
+# 🛠️ Lefthandyman — UX Modernization  
+**A real-world portfolio project involving UX modernization, performance optimization, and AI integration.**
+
+</div>
+
+---
+
+
 # 🦖 Phase 1 Success Criteria — Website Modernization
 _Lefthandyman Website & AI Platform_
 
