@@ -187,7 +187,6 @@ main() {
     modify_apache_security_config
     create_hello_world_page
     enable_ssl 
-
     
     echo "Server setup completed successfully!"
 }
