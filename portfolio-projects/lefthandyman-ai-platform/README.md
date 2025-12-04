@@ -119,6 +119,12 @@ This project demonstrates real-world problem solving, AI/Cloud implementation, a
 
 ---
 
+## Project Management
+All administrative documents, including the full project tracker, risks register, and dependencies matrix, are maintained internally in Google Drive.
+Final public artifacts are published in this repository.
+
+---
+
 ## Next Steps
 - Document UX audit with screenshots  
 - Implement responsive image scaling  
